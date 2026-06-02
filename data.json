@@ -1,0 +1,217 @@
+{
+  "github_source_repo": "https://github.com/serpcompany/porn00-downloader",
+  "serply_link": "https://serp.ly/porn00-downloader",
+  "app_name": "Porn00 Video Downloader",
+  "short_description": "Download & Save Porn00 Videos Easily for Offline Viewing (Browser Extension)",
+  "long_description": "The Porn00 Downloader extension helps you identify and save media from Porn00 video pages. Built around the site's latest-vids discovery section and slug-based video routes, this tool provides a straightforward way to capture content you have permission to keep. It focuses on the embedded playback layer where streams become accessible.",
+  "main_video": "",
+  "featured_image": "",
+  "screenshots": [
+    "https://apps.serp.co/media/optimized-products/porn00-downloader-fullscreen-01-b37d566cc3.webp",
+    "https://apps.serp.co/media/optimized-products/porn00-downloader-fullscreen-02-7441f8f919.webp",
+    "https://apps.serp.co/media/optimized-products/porn00-downloader-fullscreen-03-3a5d80ba56.webp",
+    "https://apps.serp.co/media/optimized-products/porn00-downloader-fullscreen-04-d29cb20d87.webp"
+  ],
+  "chromestore_link": "",
+  "firefoxstore_link": "",
+  "other_links": [],
+  "faqs": [
+    {
+      "question": "Does this extension work on all Porn00 pages?",
+      "answer": "It works best on the latest-vids section and /video/{slug}/ pages where the iframe playback layer is present."
+    },
+    {
+      "question": "Can I download multiple videos at once?",
+      "answer": "The extension processes one video at a time. Start a new download after the current one finishes."
+    },
+    {
+      "question": "Is this extension free?",
+      "answer": "You get 3 free trial downloads. A paid license unlocks unlimited downloads."
+    },
+    {
+      "question": "Do I need an account to use the extension?",
+      "answer": "An email sign-in is required for the trial and paid access. It uses one-time password verification."
+    },
+    {
+      "question": "Will the extension work on mobile browsers?",
+      "answer": "This extension is designed for desktop browsers that support modern extension APIs."
+    }
+  ],
+  "permissions": [
+    {
+      "name": "",
+      "description": "The Porn00 Downloader extension helps you identify and save media from Porn00 video pages. Built around the site's latest-vids discovery section and slug-based video routes, this tool provides a straightforward way to capture content you have permission to keep. It focuses on the embedded playback layer where streams become accessible."
+    },
+    {
+      "name": "",
+      "description": "Archivists building personal collections of content they have permission to keep"
+    },
+    {
+      "name": "",
+      "description": "Only download content you own or have explicit permission to save"
+    }
+  ],
+  "features": [
+    "Download videos from Porn00's latest-vids discovery feed",
+    "Works with slug-based /video/{slug}/ playback pages",
+    "Detects media through the embedded player layer",
+    "Supports both m3u8 and mp4 stream hints",
+    "Clean MP4 output for easy playback and archiving",
+    "Designed specifically for Porn00's numeric-brand video pages and latest-vids feed",
+    "Detects media through the iframe playback layer",
+    "Supports both m3u8 and mp4 stream sources",
+    "Exports clean MP4 files compatible with standard media players",
+    "Lightweight popup interface for quick access",
+    "Works on desktop browsers with modern extension support",
+    "No account required for the trial downloads",
+    "Regular updates to maintain compatibility"
+  ],
+  "content": {
+    "why": [
+      "Porn00 uses a distinct numeric-brand identity with a dedicated latest-vids section for discovering new content. Video pages follow a slug-based route pattern, and playback happens through an embedded player layer that can make media capture feel indirect or confusing. Many users find themselves wanting a clearer way to save videos they are allowed to keep, but standard browser tools often miss the stream entirely.",
+      "The Porn00 Downloader is designed around these specific page structures. It understands the latest-vids discovery flow, works with the /video/{slug}/ route pattern, and follows the iframe handoff where playback actually resolves. Instead of guessing at page layouts, this extension targets the surfaces that matter most for saving media from Porn00."
+    ],
+    "how_it_works": [
+      "Install the extension from the latest release.",
+      "Open Porn00 and go to a supported video page.",
+      "Start playback so the extension can detect the media.",
+      "Open the popup or use the on-page controls.",
+      "Choose the quality option you want.",
+      "Start the download and wait for the MP4 export to finish.",
+      "Save the final file locally."
+    ],
+    "tutorial": [
+      "Navigate to the Porn00 latest-vids section or open a direct /video/{slug}/ page.",
+      "Click the extension icon in your browser toolbar to open the popup.",
+      "If the popup shows detected media, review the available stream options.",
+      "Select your preferred quality or stream type from the list.",
+      "Click the download button to begin the capture process.",
+      "Wait for the conversion to finish — this may take a moment depending on the video length.",
+      "When prompted, choose a save location on your device.",
+      "The completed MP4 file is now ready for offline playback."
+    ],
+    "supported_formats": [
+      "Input: m3u8 and mp4 streams detected through the iframe playback layer on Porn00 video pages",
+      "Output: MP4",
+      "Saved files use MP4 so they are easier to replay on standard media players, move between devices, or archive locally."
+    ],
+    "target_users": [
+      "People who regularly browse Porn00's latest-vids section and want to save videos",
+      "Users who need a reliable way to capture media from slug-based video pages",
+      "Anyone frustrated by browser tools that miss the iframe playback layer",
+      "Archivists building personal collections of content they have permission to keep"
+    ],
+    "use_cases": [
+      "Saving a video from the latest-vids feed for offline viewing later",
+      "Archiving a specific video from a /video/{slug}/ page",
+      "Downloading content to watch on devices without consistent internet access",
+      "Creating a local backup of media you are authorized to keep",
+      "Moving videos from Porn00 to a media server or personal library"
+    ],
+    "troubleshooting": [
+      "The popup shows no media detected Make sure the video is actively playing on the page. The extension needs to see the stream start before it can identify the source.",
+      "The download starts but fails partway Check your internet connection. A stable connection is required for the entire download process.",
+      "I see an error about unsupported format Not all videos on Porn00 may use the m3u8 or mp4 formats this extension supports. Try a different video page.",
+      "The extension icon is grayed out on Porn00 pages Refresh the page and try again. If the issue persists, make sure you are on a supported /video/{slug}/ page.",
+      "The downloaded file won't play Try opening the file in a different media player. Some players may need codec updates for certain MP4 files."
+    ],
+    "trial_access": [
+      "Includes 3 free downloads so you can test the workflow first",
+      "Email sign-in uses secure one-time password verification",
+      "No credit card required for the trial",
+      "Unlimited downloads are available with a paid license"
+    ],
+    "installation_instructions": [
+      "Open the latest release page.",
+      "Download the correct build for your browser.",
+      "Install the extension.",
+      "Open a supported Porn00 page.",
+      "Use the popup to detect and download the media."
+    ],
+    "notes": [
+      "Only download content you own or have explicit permission to save",
+      "An internet connection is required for downloads",
+      "Porn00 pages use an iframe layer for video playback, so the extension needs to detect streams through that embedded player",
+      "The latest-vids section and /video/{slug}/ pages are the primary supported surfaces"
+    ],
+    "about": [
+      "Porn00 is a numeric-brand video platform organized around a latest-vids discovery feed and slug-based video pages. This extension helps users navigate the site's embedded playback structure to save content they are authorized to keep."
+    ]
+  },
+  "serpx_link": "https://serpx.link/porn00-downloader",
+  "github_topics": [
+    "porn00-download",
+    "porn00-downloader",
+    "porn00-video-downloader",
+    "porn00-video-downloader-online",
+    "porn00-video-downloader-mac",
+    "porn00-video-downloader-window",
+    "porn00-video-downloader-free",
+    "porn00-video-downloader-extension",
+    "porn00-video-downloader-app",
+    "porn00-video-downloader-chrome",
+    "porn00-video-downloader-from-url",
+    "how-to-download-porn00-videos",
+    "how-to-download-porn00-videos-mac",
+    "how-to-download-porn00-videos-windows",
+    "how-to-download-porn00-videos-online",
+    "how-to-download-porn00-videos-free",
+    "how-to-download-from-porn00",
+    "how-to-download-videos-from-porn00",
+    "download-porn00-videos",
+    "porn00-video-tutorial",
+    "save-porn00-videos",
+    "porn00-video-content-saver",
+    "how-to-download-porn00-videos-for-free"
+  ],
+  "hashtags": [
+    "#Porn00Download",
+    "#Porn00Downloader",
+    "#Porn00VideoDownloader",
+    "#Porn00VideoDownloaderOnline",
+    "#Porn00VideoDownloaderMac",
+    "#Porn00VideoDownloaderWindow",
+    "#Porn00VideoDownloaderFree",
+    "#Porn00VideoDownloaderExtension",
+    "#Porn00VideoDownloaderApp",
+    "#Porn00VideoDownloaderChrome",
+    "#Porn00VideoDownloaderFromURL",
+    "#HowToDownloadPorn00Videos",
+    "#HowToDownloadPorn00VideosMac",
+    "#HowToDownloadPorn00VideosWindows",
+    "#HowToDownloadPorn00VideosOnline",
+    "#HowToDownloadPorn00VideosFree",
+    "#HowToDownloadFromPorn00",
+    "#HowToDownloadVideosFromPorn00",
+    "#DownloadPorn00Videos",
+    "#Porn00VideoTutorial",
+    "#SavePorn00Videos",
+    "#Porn00VideoContentSaver",
+    "#HowToDownloadPorn00VideosForFree"
+  ],
+  "youtube_tags": [
+    "Porn00 Download",
+    "Porn00 Downloader",
+    "Porn00 Video Downloader",
+    "Porn00 Video Downloader Online",
+    "Porn00 Video Downloader Mac",
+    "Porn00 Video Downloader Window",
+    "Porn00 Video Downloader Free",
+    "Porn00 Video Downloader Extension",
+    "Porn00 Video Downloader App",
+    "Porn00 Video Downloader Chrome",
+    "Porn00 Video Downloader From URL",
+    "How To Download Porn00 Videos",
+    "How To Download Porn00 Videos Mac",
+    "How To Download Porn00 Videos Windows",
+    "How To Download Porn00 Videos Online",
+    "How To Download Porn00 Videos Free",
+    "How To Download From Porn00",
+    "How To Download Videos From Porn00",
+    "Download Porn00 Videos",
+    "Porn00 Video Tutorial",
+    "Save Porn00 Videos",
+    "Porn00 Video Content Saver",
+    "How To Download Porn00 Videos For Free"
+  ]
+}
